@@ -29,7 +29,78 @@
 <body>
     {% block header %}
     {% endblock header %}
-
+    <div class="layerpicker">
+        <div class="layerpicker-arrow-2"></div>
+        <div class="layerpicker-legend">
+            <div class="layerpicker-legenditem">
+                <div class="layerpicker-legendcolor"></div>
+                Item #1
+            </div>
+            <div class="layerpicker-legenditem">
+                <div class="layerpicker-legendcolor"></div>
+                Item #2
+            </div>
+            <div class="layerpicker-legenditem">
+                <div class="layerpicker-legendcolor"></div>
+                Item #3
+            </div>
+        </div>
+        <div class="layerpicker-heading">
+            Coverage Layers
+        </div>
+        <div class="layerpicker-layers">
+            <div class="layerpicker-layer">
+                <button class="layerpicker-title">
+                    National Land Cover Database
+                </button>
+                <div class="layerpicker-info">
+                </div>
+            </div>
+            <div class="layerpicker-layer">
+                <button class="layerpicker-title">Hydrolic Soil Groups</button>
+                <div class="layerpicker-info">
+                </div>
+            </div>
+            <div class="layerpicker-layer">
+                <button class="layerpicker-title">
+                    National Land Cover Database
+                </button>
+                <div class="layerpicker-info">
+                </div>
+            </div>
+            <div class="layerpicker-layer">
+                <button class="layerpicker-title">Hydrolic Soil Groups</button>
+                <div class="layerpicker-info">
+                </div>
+            </div>
+            <div class="layerpicker-layer">
+                <button class="layerpicker-title">
+                    National Land Cover Database
+                </button>
+                <div class="layerpicker-info">
+                </div>
+            </div>
+            <div class="layerpicker-layer">
+                <button class="layerpicker-title">Hydrolic Soil Groups</button>
+                <div class="layerpicker-info">
+                </div>
+            </div>
+        </div>
+        <div class="layerpicker-nav">
+            <div class="layerpicker-navbutton">
+                <i class="fa fa-star-o"></i>
+            </div>
+            <div class="layerpicker-navbutton active">
+                <i class="fa fa-music"></i>
+            </div>
+            <div class="layerpicker-navbutton open">
+                <i class="fa fa-star-o"></i>
+            </div>
+            <div class="layerpicker-navbutton">
+                <i class="fa fa-star-o"></i>
+            </div>
+        </div>
+    </div>
     <div class="map-container">
         {% block map %}
         {% endblock map %}
